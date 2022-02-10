@@ -1,6 +1,18 @@
 @use "sass:math";
 @import 'variables';
 
+// COL-*
+@for $i from 1 through $grid-columns {
+  .col-#{$i} {
+    background-color: rgb(random(255), random(255), random(255));
+    border: $col--border;
+    height: $col--height;
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: math.div(($i * 100%), $grid-columns);
+  }
+}
+
 // MIXIN MEDIA QUERIES
 
 @mixin xs {
@@ -12,10 +24,17 @@
 @include xs {
   @for $i from 1 through $grid-columns {
     .col-xs-#{$i} {
+      background-color: rgb(random(255),random(255),random(255));
+      border: $col--border;
+      height: $col--height;
       box-sizing: border-box;
       flex-grow: 0;
       width: math.div(($i * 100%), $grid-columns);
     }
+  }
+  .container-xs {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
@@ -28,10 +47,17 @@
 @include sm {
   @for $i from 1 through $grid-columns {
     .col-sm-#{$i} {
+      background-color: rgb(random(255),random(255),random(255));
+      border: $col--border;
+      height: $col--height;
       box-sizing: border-box;
       flex-grow: 0;
       width: math.div(($i * 100%), $grid-columns);
     }
+  }
+  .container-sm {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
@@ -44,10 +70,17 @@
 @include md {
   @for $i from 1 through $grid-columns {
     .col-md-#{$i} {
+      background-color: rgb(random(255),random(255),random(255));
+      border: $col--border;
+      height: $col--height;
       box-sizing: border-box;
       flex-grow: 0;
       width: math.div(($i * 100%), $grid-columns);
     }
+  }
+  .container-md {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
@@ -60,10 +93,17 @@
 @include lg {
   @for $i from 1 through $grid-columns {
     .col-lg-#{$i} {
+      background-color: rgb(random(255),random(255),random(255));
+      border: $col--border;
+      height: $col--height;
       box-sizing: border-box;
       flex-grow: 0;
       width: math.div(($i * 100%), $grid-columns);
     }
+  }
+  .container-lg {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
@@ -76,10 +116,17 @@
 @include xl {
   @for $i from 1 through $grid-columns {
     .col-xl-#{$i} {
+      background-color: rgb(random(255),random(255),random(255));
+      border: $col--border;
+      height: $col--height;
       box-sizing: border-box;
       flex-grow: 0;
       width: math.div(($i * 100%), $grid-columns);
     }
+  }
+  .container-xl {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
@@ -92,9 +139,16 @@
 @include xxl {
   @for $i from 1 through $grid-columns {
     .col-xxl-#{$i} {
+      background-color: rgb(random(255),random(255),random(255));
+      border: $col--border;
+      height: $col--height;
       box-sizing: border-box;
       flex-grow: 0;
       width: math.div(($i * 100%), $grid-columns);
     }
+  }
+  .container-xxl {
+    width: 100%;
+    margin: 0 auto;
   }
 }

@@ -1,10 +1,8 @@
 @use "sass:math";
 @import "variables";
 
-/*
 // CONTAINER
 
-// Container
 .container {
   width: 100%;
   max-width: 1320px;
@@ -13,40 +11,10 @@
   box-sizing: border-box;
 }
 
-// Container sm
-.container-sm {
-  width: 100%;
-  margin: 0 auto;
-}
-
-// container md
-.container-md {
-  width: 100%;
-  margin: 0 auto;
-}
-
-// Container lg
-.container-lg {
-  width: 100%;
-  margin: 0 auto;
-}
-
-// Container xl
-.container-xl {
-  width: 100%;
-  margin: 0 auto;
-}
-*/
-/* Container xxl *//*
-.container-xxl {
-  width: 100%;
-  margin: 0 auto;
-}
-
 .container-fluid {
   width: 100%;
 }
-
+/*
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
