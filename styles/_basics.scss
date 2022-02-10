@@ -1,0 +1,15 @@
+@use "sass:math";
+@import 'variables';
+
+// ERROR & NOTIF
+.error {
+  color: $error;
+  border-color: $error;
+  border-style: solid;
+}
+
+.notification {
+  color: $secondary;
+  border-color: $secondary;
+  border-style: solid;
+}

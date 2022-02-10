@@ -2,6 +2,7 @@
 @import 'variables';
 
 // COL-*
+
 @for $i from 1 through $grid-columns {
   .col-#{$i} {
     background-color: rgb(random(255), random(255), random(255));
@@ -13,7 +14,7 @@
   }
 }
 
-// MIXIN MEDIA QUERIES
+// COL-SIZE-*
 
 @mixin xs {
   @media (min-width: map-get($breakpoints, "xs")) {

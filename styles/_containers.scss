@@ -5,16 +5,14 @@
 
 .container {
   width: 100%;
-  max-width: 1320px;
   margin: 0 auto;
-  padding: 0 20px;
   box-sizing: border-box;
 }
 
 .container-fluid {
   width: 100%;
 }
-/*
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -103,4 +101,4 @@
   .container-xxl {
     max-width: 1320px;
   }
-}*/
+}
