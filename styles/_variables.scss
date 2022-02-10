@@ -1,0 +1,54 @@
+/* ---------- VARIABLES ---------- */
+@use "sass:math";
+
+
+// COLORS
+$primary: #326dee;
+$secondary: #1ac888;
+$error: #d32752;
+$info: #f6c31c;
+
+// COLUMNS
+$col--height: 20px;
+$col--border: 1px solid black;
+
+// SPACING
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+// BREAKPOINTS
+$breakpoints: (
+        "xs": 0,
+        "sm": 540px,
+        "md": 720px,
+        "lg": 960px,
+        "xl": 1140px,
+        "xxl": 1320px
+);
+
+// BOX SHADOW & FONT SIZE
+$box-shadow: 1px 3px 5px rgba(0, 0, 0, 1);
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
+
+// ERROR & NOTIF
+.error {
+  color: $error;
+  border-color: $error;
+  border-style: solid;
+}
+
+.notification {
+  color: $secondary;
+  border-color: $secondary;
+  border-style: solid;
+}
+
+// GRIDS
+$i: 0;
+$grid-columns: 12;
+
+// LAYOUT
