@@ -1,5 +1,5 @@
 .col-1 {
-  background-color: #ac4204;
+  background-color: #eacbab;
   border: 1px solid black;
   height: 20px;
   box-sizing: border-box;
@@ -8,7 +8,7 @@
 }
 
 .col-2 {
-  background-color: #8c1bb5;
+  background-color: #15965b;
   border: 1px solid black;
   height: 20px;
   box-sizing: border-box;
@@ -17,7 +17,7 @@
 }
 
 .col-3 {
-  background-color: #e72ec4;
+  background-color: #397473;
   border: 1px solid black;
   height: 20px;
   box-sizing: border-box;
@@ -26,7 +26,7 @@
 }
 
 .col-4 {
-  background-color: #042673;
+  background-color: #c03810;
   border: 1px solid black;
   height: 20px;
   box-sizing: border-box;
@@ -35,7 +35,7 @@
 }
 
 .col-5 {
-  background-color: #0dd2ef;
+  background-color: #6c2998;
   border: 1px solid black;
   height: 20px;
   box-sizing: border-box;
@@ -44,7 +44,7 @@
 }
 
 .col-6 {
-  background-color: #6f08f1;
+  background-color: #1f31e9;
   border: 1px solid black;
   height: 20px;
   box-sizing: border-box;
@@ -53,7 +53,7 @@
 }
 
 .col-7 {
-  background-color: #04bb29;
+  background-color: #99432e;
   border: 1px solid black;
   height: 20px;
   box-sizing: border-box;
@@ -62,7 +62,7 @@
 }
 
 .col-8 {
-  background-color: #6f92ba;
+  background-color: #1814db;
   border: 1px solid black;
   height: 20px;
   box-sizing: border-box;
@@ -71,7 +71,7 @@
 }
 
 .col-9 {
-  background-color: #3eb320;
+  background-color: #e140cf;
   border: 1px solid black;
   height: 20px;
   box-sizing: border-box;
@@ -80,7 +80,7 @@
 }
 
 .col-10 {
-  background-color: #ca59d3;
+  background-color: #6af3e2;
   border: 1px solid black;
   height: 20px;
   box-sizing: border-box;
@@ -89,7 +89,7 @@
 }
 
 .col-11 {
-  background-color: #65cb3e;
+  background-color: #99f76c;
   border: 1px solid black;
   height: 20px;
   box-sizing: border-box;
@@ -98,7 +98,7 @@
 }
 
 .col-12 {
-  background-color: #2501a8;
+  background-color: #42e07b;
   border: 1px solid black;
   height: 20px;
   box-sizing: border-box;
@@ -108,7 +108,7 @@
 
 @media (min-width: 0) {
   .col-xs-1 {
-    background-color: #0818f7;
+    background-color: #d62cee;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -117,7 +117,7 @@
   }
 
   .col-xs-2 {
-    background-color: #418b6a;
+    background-color: #9d5a28;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -126,7 +126,7 @@
   }
 
   .col-xs-3 {
-    background-color: #d6c749;
+    background-color: #6993ee;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -135,7 +135,7 @@
   }
 
   .col-xs-4 {
-    background-color: #f3f540;
+    background-color: #0cde9e;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -144,7 +144,7 @@
   }
 
   .col-xs-5 {
-    background-color: #63573e;
+    background-color: #29c30e;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -153,7 +153,7 @@
   }
 
   .col-xs-6 {
-    background-color: #ac4fb0;
+    background-color: #a5fe48;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -162,7 +162,7 @@
   }
 
   .col-xs-7 {
-    background-color: #c36352;
+    background-color: #cb7b1b;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -171,7 +171,7 @@
   }
 
   .col-xs-8 {
-    background-color: #60fb02;
+    background-color: #c8ebb8;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -180,7 +180,7 @@
   }
 
   .col-xs-9 {
-    background-color: #9a865e;
+    background-color: #1ac682;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -189,7 +189,7 @@
   }
 
   .col-xs-10 {
-    background-color: #d5d147;
+    background-color: #263278;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -198,7 +198,7 @@
   }
 
   .col-xs-11 {
-    background-color: #d53955;
+    background-color: #998047;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -207,7 +207,7 @@
   }
 
   .col-xs-12 {
-    background-color: #a861c5;
+    background-color: #142d71;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -222,7 +222,7 @@
 }
 @media (min-width: 576px) {
   .col-sm-1 {
-    background-color: #e51598;
+    background-color: #e64890;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -231,7 +231,7 @@
   }
 
   .col-sm-2 {
-    background-color: #128c5c;
+    background-color: #892ccf;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -240,7 +240,7 @@
   }
 
   .col-sm-3 {
-    background-color: #51f759;
+    background-color: #297bdf;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -249,7 +249,7 @@
   }
 
   .col-sm-4 {
-    background-color: #d9e5d3;
+    background-color: #0e8e10;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -258,7 +258,7 @@
   }
 
   .col-sm-5 {
-    background-color: #b4f014;
+    background-color: #3e950f;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -267,7 +267,7 @@
   }
 
   .col-sm-6 {
-    background-color: #8ec0be;
+    background-color: #284faf;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -276,7 +276,7 @@
   }
 
   .col-sm-7 {
-    background-color: #1289cc;
+    background-color: #deef8e;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -285,7 +285,7 @@
   }
 
   .col-sm-8 {
-    background-color: #3215bf;
+    background-color: #487232;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -294,7 +294,7 @@
   }
 
   .col-sm-9 {
-    background-color: #da9480;
+    background-color: #075612;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -303,7 +303,7 @@
   }
 
   .col-sm-10 {
-    background-color: #6ac76f;
+    background-color: #8cff28;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -312,7 +312,7 @@
   }
 
   .col-sm-11 {
-    background-color: #b2992b;
+    background-color: #4770cf;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -321,7 +321,7 @@
   }
 
   .col-sm-12 {
-    background-color: #e1d39a;
+    background-color: #6ed802;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -336,7 +336,7 @@
 }
 @media (min-width: 768px) {
   .col-md-1 {
-    background-color: #1590b1;
+    background-color: #e113dc;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -345,7 +345,7 @@
   }
 
   .col-md-2 {
-    background-color: #893ee1;
+    background-color: #3bcc61;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -354,7 +354,7 @@
   }
 
   .col-md-3 {
-    background-color: #923fc7;
+    background-color: #a53f4c;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -363,7 +363,7 @@
   }
 
   .col-md-4 {
-    background-color: #aa461b;
+    background-color: #f4a3be;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -372,7 +372,7 @@
   }
 
   .col-md-5 {
-    background-color: #87c5fd;
+    background-color: #14d667;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -381,7 +381,7 @@
   }
 
   .col-md-6 {
-    background-color: #40760b;
+    background-color: #756265;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -390,7 +390,7 @@
   }
 
   .col-md-7 {
-    background-color: #ebca3f;
+    background-color: #da86d6;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -399,7 +399,7 @@
   }
 
   .col-md-8 {
-    background-color: #43c392;
+    background-color: #20a731;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -408,7 +408,7 @@
   }
 
   .col-md-9 {
-    background-color: #1467b5;
+    background-color: #da210c;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -417,7 +417,7 @@
   }
 
   .col-md-10 {
-    background-color: #15a220;
+    background-color: #e92248;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -426,7 +426,7 @@
   }
 
   .col-md-11 {
-    background-color: #da6c57;
+    background-color: #c0c9ce;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -435,7 +435,7 @@
   }
 
   .col-md-12 {
-    background-color: #13b133;
+    background-color: #66ea63;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -450,7 +450,7 @@
 }
 @media (min-width: 992px) {
   .col-lg-1 {
-    background-color: #8313f2;
+    background-color: #76f886;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -459,7 +459,7 @@
   }
 
   .col-lg-2 {
-    background-color: #69e3cb;
+    background-color: #9e66c3;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -468,7 +468,7 @@
   }
 
   .col-lg-3 {
-    background-color: #3ad855;
+    background-color: #166ff5;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -477,7 +477,7 @@
   }
 
   .col-lg-4 {
-    background-color: #2a8e63;
+    background-color: #384e40;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -486,7 +486,7 @@
   }
 
   .col-lg-5 {
-    background-color: #0c4aa5;
+    background-color: #bfa1f6;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -495,7 +495,7 @@
   }
 
   .col-lg-6 {
-    background-color: #7bccc1;
+    background-color: #08a9f0;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -504,7 +504,7 @@
   }
 
   .col-lg-7 {
-    background-color: #cfdfc4;
+    background-color: #6dfe74;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -513,7 +513,7 @@
   }
 
   .col-lg-8 {
-    background-color: #678c6b;
+    background-color: #b69a12;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -522,7 +522,7 @@
   }
 
   .col-lg-9 {
-    background-color: #addbe1;
+    background-color: #f175d5;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -531,7 +531,7 @@
   }
 
   .col-lg-10 {
-    background-color: #9d2c8a;
+    background-color: #6c9011;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -540,7 +540,7 @@
   }
 
   .col-lg-11 {
-    background-color: #98895a;
+    background-color: #66c80f;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -549,7 +549,7 @@
   }
 
   .col-lg-12 {
-    background-color: #4e574e;
+    background-color: #06aa3f;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -564,7 +564,7 @@
 }
 @media (min-width: 1200px) {
   .col-xl-1 {
-    background-color: #94bb40;
+    background-color: #90dcd8;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -573,7 +573,7 @@
   }
 
   .col-xl-2 {
-    background-color: #4263d0;
+    background-color: #3c7562;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -582,7 +582,7 @@
   }
 
   .col-xl-3 {
-    background-color: #f67fc5;
+    background-color: #b8787d;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -591,7 +591,7 @@
   }
 
   .col-xl-4 {
-    background-color: #503804;
+    background-color: #f661c6;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -600,7 +600,7 @@
   }
 
   .col-xl-5 {
-    background-color: #f4d5e3;
+    background-color: #13e771;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -609,7 +609,7 @@
   }
 
   .col-xl-6 {
-    background-color: #b98e63;
+    background-color: #6a6ea1;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -618,7 +618,7 @@
   }
 
   .col-xl-7 {
-    background-color: #6bb67d;
+    background-color: #f38cbb;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -627,7 +627,7 @@
   }
 
   .col-xl-8 {
-    background-color: #9da689;
+    background-color: #030efe;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -636,7 +636,7 @@
   }
 
   .col-xl-9 {
-    background-color: #bad459;
+    background-color: #68ba54;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -645,7 +645,7 @@
   }
 
   .col-xl-10 {
-    background-color: #5746db;
+    background-color: #06d8c7;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -654,7 +654,7 @@
   }
 
   .col-xl-11 {
-    background-color: #358f55;
+    background-color: #7135e0;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -663,7 +663,7 @@
   }
 
   .col-xl-12 {
-    background-color: #ccde75;
+    background-color: #190f61;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -678,7 +678,7 @@
 }
 @media (min-width: 1400px) {
   .col-xxl-1 {
-    background-color: #b8073d;
+    background-color: #babd3a;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -687,7 +687,7 @@
   }
 
   .col-xxl-2 {
-    background-color: #dd9e9c;
+    background-color: #dcdd2f;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -696,7 +696,7 @@
   }
 
   .col-xxl-3 {
-    background-color: #c3037f;
+    background-color: #d3624e;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -705,7 +705,7 @@
   }
 
   .col-xxl-4 {
-    background-color: #3776bc;
+    background-color: #8019c2;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -714,7 +714,7 @@
   }
 
   .col-xxl-5 {
-    background-color: #17259c;
+    background-color: #5d2ec3;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -723,7 +723,7 @@
   }
 
   .col-xxl-6 {
-    background-color: #f32563;
+    background-color: #88c974;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -732,7 +732,7 @@
   }
 
   .col-xxl-7 {
-    background-color: #870c2b;
+    background-color: #c7dfa3;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -741,7 +741,7 @@
   }
 
   .col-xxl-8 {
-    background-color: #ac31bf;
+    background-color: #825038;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -750,7 +750,7 @@
   }
 
   .col-xxl-9 {
-    background-color: #a2746f;
+    background-color: #38e6e7;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -759,7 +759,7 @@
   }
 
   .col-xxl-10 {
-    background-color: #ba3852;
+    background-color: #8fcb76;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -768,7 +768,7 @@
   }
 
   .col-xxl-11 {
-    background-color: #5185f7;
+    background-color: #385023;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -777,7 +777,7 @@
   }
 
   .col-xxl-12 {
-    background-color: #7c9b04;
+    background-color: #a95261;
     border: 1px solid black;
     height: 20px;
     box-sizing: border-box;
@@ -796,7 +796,7 @@
 }
 
 .col {
-  background-color: #080dea;
+  background-color: #4ae9d3;
   flex: 1 0 0%;
   border: 1px solid black;
   height: 20px;
@@ -920,6 +920,7 @@
 }
 
 .btn {
+  height: 32px;
   color: white;
   text-decoration: none;
   padding: 5px 10px;
@@ -1150,6 +1151,46 @@
 }
 .btn-outline-light:active {
   background: #313539;
+}
+
+.btn-xs {
+  height: 24px;
+  padding: 2px 4px;
+  font-size: 12px;
+}
+
+.btn-sm {
+  height: 28px;
+  padding: 4px 8px;
+  font-size: 14px;
+}
+
+.btn-md {
+  height: 36px;
+  padding: 6px 10px;
+  font-size: 16px;
+}
+
+.btn-lg {
+  height: 44px;
+  padding: 8px 12px;
+  font-size: 18px;
+}
+
+.btn-xl {
+  height: 48px;
+  padding: 10px 14px;
+  font-size: 20px;
+}
+
+.btn-xxl {
+  height: 52px;
+  padding: 12px 16px;
+  font-size: 22px;
+}
+
+.btn-block {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
