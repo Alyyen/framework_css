@@ -7,13 +7,35 @@
     transition: all 0.3s ease;
   }
   &:active {
+    border: solid 2px darken($bg, 25%);
     background: darken($bg, 25%);
   }
 }
 
-.disabled {
-  @include button-background($dark-gray);
+@mixin button-outlined($color) {
+  background: white;
+  color: $color;
+  border: solid 1px $color;
+  &:hover {
+    background: $color;
+    transition: all 0.3s ease;
+    color: white;
+  }
+  &:active {
+    background: darken($color, 25%);
+  }
 }
+
+// STATES
+
+.disabled {
+  background: $gray;
+  &:hover {
+    background: $gray;}
+  cursor: not-allowed;
+}
+
+// CLASSICS
 
 .btn {
   color: white;
@@ -24,11 +46,15 @@
 }
 
 .btn-success {
-  @include button-background($secondary);
+  @include button-background($success);
 }
 
 .btn-primary {
   @include button-background($primary);
+}
+
+.btn-secondary {
+  @include button-background($gray);
 }
 
 .btn-warning {
@@ -41,4 +67,55 @@
 
 .btn-info {
   @include button-background($info);
+}
+
+.btn-light {
+  @include button-background($light);
+  color: $dark-gray;
+}
+
+.btn-dark {
+  @include button-background($dark-gray);
+}
+
+.btn-link {
+  @include button-background($none);
+  color: $primary;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+// OUTLINED
+
+.btn-outline-primary {
+  @include button-outlined($primary);
+}
+
+.btn-outline-secondary {
+  @include button-outlined($gray);
+}
+
+.btn-outline-success {
+  @include button-outlined($success);
+}
+
+.btn-outline-warning {
+  @include button-outlined($warning);
+}
+
+.btn-outline-danger {
+  @include button-outlined($error);
+}
+
+.btn-outline-info {
+  @include button-outlined($info);
+}
+
+.btn-outline-dark {
+  @include button-outlined($dark-gray);
+}
+
+.btn-outline-light {
+  @include button-outlined($gray);
 }
