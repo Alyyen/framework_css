@@ -1,0 +1,44 @@
+@import "variables";
+
+@mixin button-background($bg) {
+  background: $bg;
+  &:hover {
+    background: darken($bg, 8%);
+    transition: all 0.3s ease;
+  }
+  &:active {
+    background: darken($bg, 25%);
+  }
+}
+
+.disabled {
+  @include button-background($dark-gray);
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: solid 1px $gray;
+}
+
+.btn-success {
+  @include button-background($secondary);
+}
+
+.btn-primary {
+  @include button-background($primary);
+}
+
+.btn-warning {
+  @include button-background($warning);
+}
+
+.btn-danger {
+  @include button-background($error);
+}
+
+.btn-info {
+  @include button-background($info);
+}

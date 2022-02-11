@@ -1,10 +1,14 @@
 @use "sass:math";
 
 // COLORS
-$primary: #326dee;
+$primary: #007bff;
 $secondary: #1ac888;
 $error: #d32752;
-$info: #f6c31c;
+$warning: #ffc107;
+$gray : #6c757d;
+$dark-gray: #343a40;
+$info: #17a2b8;
+
 
 // COLUMNS
 $col--height: 20px;
