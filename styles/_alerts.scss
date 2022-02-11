@@ -1,0 +1,60 @@
+@import 'variables';
+
+// ALERTS
+
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-primary {
+  color: $primary;
+  background-color: #cce5ff;
+  border-color: $primary;
+}
+
+.alert-secondary {
+  color: $dark-gray;
+  background-color: #e2e3e5;
+  border-color: $dark-gray;
+}
+
+.alert-success {
+  color: $success;
+  background-color: #d4edda;
+  border-color: $success;
+}
+
+.alert-danger {
+  color: $error;
+  background-color: #f8d7da;
+  border-color: $error;
+}
+
+.alert-warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: $warning;
+}
+
+.alert-info {
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border-color: $info;
+}
+
+.alert-light {
+  color: $gray;
+  background-color: $light;
+  border-color: $light;
+}
+
+.alert-dark {
+  color: black;
+  background-color: $gray;
+  border-color: $dark-gray;
+}
+
