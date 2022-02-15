@@ -11,7 +11,6 @@ $(function () {
 
         for (let i = 0; i < dropdownItems.length; i++) {
             dropdownItems[i].classList.toggle("show");
-            console.log(dropdownItems[i].className);
         }
     });
 
@@ -22,7 +21,6 @@ $(function () {
 
         for (let i = 0; i < dropdownItems.length; i++) {
             dropdownItems[i].classList.toggle("hidden");
-            console.log(dropdownItems[i].className);
         }
     });
 });

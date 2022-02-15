@@ -29,9 +29,7 @@
 // STATES
 
 .disabled {
-  background: $gray;
-  &:hover {
-    background: $gray;}
+  color: $gray;
   cursor: not-allowed;
 }
 
