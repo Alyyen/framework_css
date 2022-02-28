@@ -1,0 +1,52 @@
+@use "sass:math";
+
+// COLORS
+$primary: #007bff;
+$success: #1ac888;
+$error: #d32752;
+$warning: #ffc107;
+$gray : #6c757d;
+$dark-gray: #343a40;
+$info: #17a2b8;
+$light: #f8f9fa;
+$none: rgba(0, 0, 0, 0);
+
+// COLUMNS
+$col--height: auto;
+$col--border: 1px solid black;
+
+// SPACING
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+// BREAKPOINTS
+$breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1400px
+);
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px,
+        xxl: 1320px
+);
+
+// BOX SHADOW & FONT SIZE
+$box-shadow: 1px 3px 5px rgba(0, 0, 0, 1);
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
+
+// GRIDS
+$i: 0;
+$grid-columns: 12;
+
+// LAYOUT

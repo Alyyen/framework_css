@@ -1,0 +1,28 @@
+@import "variables";
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-rounded {
+  border-radius: 3px;
+}
+
+.img-thumbnail {
+  padding: 2px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid $gray;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-blur {
+  filter: blur(8px);
+}
+
+
+

@@ -1,0 +1,18 @@
+@use "sass:math";
+@import "variables";
+
+// ROWS
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.col {
+  background-color: rgb(random(255), random(255), random(255));
+  flex: 1 0 0%;
+  border: $col--border;
+  height: $col--height;
+  box-sizing: border-box;
+  flex-grow: 0;
+}

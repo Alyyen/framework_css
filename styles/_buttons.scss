@@ -1,0 +1,162 @@
+@import "variables";
+
+@mixin button-background($bg) {
+  background: $bg;
+  &:hover {
+    background: darken($bg, 8%);
+    transition: all 0.3s ease;
+  }
+  &:active {
+    border: solid 2px darken($bg, 25%);
+    background: darken($bg, 25%);
+  }
+}
+
+@mixin button-outlined($color) {
+  background: white;
+  color: $color;
+  border: solid 1px $color;
+  &:hover {
+    background: $color;
+    transition: all 0.3s ease;
+    color: white;
+  }
+  &:active {
+    background: darken($color, 25%);
+  }
+}
+
+// STATES
+
+.disabled {
+  color: $gray;
+  cursor: not-allowed;
+}
+
+// CLASSICS
+
+.btn {
+  height: 32px;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: solid 1px $gray;
+}
+
+.btn-success {
+  @include button-background($success);
+}
+
+.btn-primary {
+  @include button-background($primary);
+}
+
+.btn-secondary {
+  @include button-background($gray);
+}
+
+.btn-warning {
+  @include button-background($warning);
+}
+
+.btn-danger {
+  @include button-background($error);
+}
+
+.btn-info {
+  @include button-background($info);
+}
+
+.btn-light {
+  @include button-background($light);
+  color: $dark-gray;
+}
+
+.btn-dark {
+  @include button-background($dark-gray);
+}
+
+.btn-link {
+  @include button-background($none);
+  color: $primary;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+// OUTLINED
+
+.btn-outline-primary {
+  @include button-outlined($primary);
+}
+
+.btn-outline-secondary {
+  @include button-outlined($gray);
+}
+
+.btn-outline-success {
+  @include button-outlined($success);
+}
+
+.btn-outline-warning {
+  @include button-outlined($warning);
+}
+
+.btn-outline-danger {
+  @include button-outlined($error);
+}
+
+.btn-outline-info {
+  @include button-outlined($info);
+}
+
+.btn-outline-dark {
+  @include button-outlined($dark-gray);
+}
+
+.btn-outline-light {
+  @include button-outlined($gray);
+}
+
+// SIZES
+
+.btn-xs {
+  height: 24px;
+  padding: 2px 4px;
+  font-size: 12px;
+}
+
+.btn-sm {
+  height: 28px;
+  padding: 4px 8px;
+  font-size: 14px;
+}
+
+.btn-md {
+  height: 36px;
+  padding: 6px 10px;
+  font-size: 16px;
+}
+
+.btn-lg {
+  height: 44px;
+  padding: 8px 12px;
+  font-size: 18px;
+}
+
+.btn-xl {
+  height: 48px;
+  padding: 10px 14px;
+  font-size: 20px;
+}
+
+.btn-xxl {
+  height: 52px;
+  padding: 12px 16px;
+  font-size: 22px;
+}
+
+.btn-block {
+  width: 100%;
+}

@@ -1,0 +1,28 @@
+@import "variables";
+@import "mediaqueries";
+
+// TABS
+
+.tab-list {
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+
+.tab-item {
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.active {
+  padding: 7px 12px;
+  background-color: $primary;
+  color: white;
+  border-radius: 3px;
+}
+
+.tab-pane {
+  //display: block;
+}
+
+
